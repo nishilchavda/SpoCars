@@ -1,0 +1,683 @@
+
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* header */
+.header-top{
+    background-color: #141b41;
+    color: #ffffff;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.logo h1{
+    font-family: 'Pixelify Sans';
+    padding-top: 13px;
+    color: #ffffff;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo a:hover{
+    color: #ffffff;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.searchbox{
+    margin-top: 16px;
+    margin-bottom: auto;
+    height: 38px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.search-input{
+    border: none;
+    outline: 0;
+    background-color: #ffffff;
+    margin-top: 6px;
+    margin-left: 14px;
+}
+
+.search-btn{
+    height: 38px;
+    width: 38px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    float: right;
+    display: flex;
+    background-color: #141b41;
+}
+
+.search-btn img {
+    height: 18px;
+    width: 18px;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+.log-in{
+    height: 40px;
+    width: 68px;
+    background-color: #141B41;
+    border: solid #306BAC 2px;
+    margin-top: 16px;
+    border-radius: 20px;
+}
+
+.log-in-text {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.log-in-text a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sgin-up{
+    height: 40px;
+    width: 78px;
+    background-color: #306BAC;
+    border: solid #306BAC 1px;
+    margin-top: 16px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.sgin-up-text{
+    margin-left: 10px;
+    margin-top: 4px;
+} 
+
+.sgin-up-text a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.col-lg-2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.col-lg-2 ul li{
+    float: left;
+}
+
+.col-lg-2 ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* header two */
+
+.header-two{
+    background-color: #306BAC;
+    padding-top: 72px;
+}
+.header-two .header-two-list{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+
+.header-two .col-lg-12 .header-two-list{
+    display: flex;
+    position: relative;
+    color: #141B41;
+    font-weight: 600;
+    gap: 85px;
+    margin-left: 35px;
+}
+.header-two .col-lg-12 .header-two-list:not(:last-child){
+    margin-right: 80px;
+}
+
+.dropdown img{
+    height: 8px;
+    width: 8px;
+    color: #141B41;
+}
+
+.dropdown:hover :not(text,.dropdown-content,.dropdown-content p) {
+    transform: rotate(180deg); 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #306BAC;
+    left: -18px;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#drop{
+    column-count: 4;
+}
+
+.dropdown-content a{
+    color: #141B41;
+    font-weight: 400;
+}
+
+.dropdown-content a:hover{
+    color: #141B41;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* background image */
+
+.bg-image{
+    background-size: cover;
+    height: 640px;
+    padding: 55px;
+}
+
+.hero-text{
+    padding: 100px;
+    padding-bottom: 30px;
+    
+}
+
+.hero-text h2{
+    font-family: 'Pixelify Sans';
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero-text span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero-btn{
+    padding-left: 100px;
+
+}
+
+.primary-btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #141B41;
+    border-radius: 10px;
+    
+}
+
+.primary-btn:hover {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #306BAC;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* service tab */
+
+.section-title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.section-title h2 {
+    color: #323232;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.services-item {
+    text-align: center;
+    padding: 20px 20px 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.services-item:hover {
+    -webkit-box-shadow: 0px 6px 50px rgba(50, 15, 15, 0.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.services-item img {
+    max-width: 100%;
+}
+
+.services-item h5{
+        margin-top: 50px;
+        font-weight: 600;
+        text-align: center;
+        color: #141B41;
+}
+
+.services-item p{
+        font-size: 15px;
+        font-family: "Lato", sans-serif;
+        color: #306BAC;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0 0 15px 0;
+}
+
+.services {
+    text-align: center;
+}
+
+.browse-car{
+    margin-top: 40px;
+    
+}
+.browse-car .button{
+    height: 50px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: #141B41;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+/* feature page */
+
+.feature {
+    background: #d3e2fc;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 55px;
+}
+
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.feature-text .section-title {
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.section-title span {
+    font-size: 15px;
+    color: #306BAC;
+    font-weight: 700;
+}
+
+.section-title h2 {
+    color: #141b41;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.feature-text .section-title h2 {
+    margin-bottom: 0;
+}
+
+.feature-text-desc {
+    margin-bottom: 35px;
+}
+
+.feature-text-desc p {
+    margin-bottom: 30px;
+}
+
+.feature-text-desc p {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: #306BAC;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+.feature-text-btn .primary-btn {
+    margin-right: 16px;
+}
+
+
+
+.feature-item {
+    text-align: center;
+    float: right;
+    margin-bottom: 45px;
+}
+
+.feature-item .feature-item-icon {
+    height: 100px;
+    width: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 20px !important;
+    margin: 0 auto;
+}
+
+.feature-item h6 {
+    font-size: 15px;
+    color: #353535;
+    font-weight: 700;
+}
+
+.feature:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 605px;
+    height: 404px;
+    background-image: url("/img/F/car.png");
+    content: "";
+    -webkit-transform: translate(-300px, -202px);
+    -ms-transform: translate(-300px, -202px);
+    transform: translate(-300px, -202px);
+    z-index: -1;
+}
+
+/* car page */
+
+.card-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-heading span{
+    color: #306BAC;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-heading h2{
+    font-weight: 700;
+    color: #141b41;
+}
+
+.card{
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid #ebebeb;
+
+}
+.car-details .card{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;  
+}
+
+.card-img-top{
+    margin-top: 10px;
+}
+
+.card .buy-button{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #141b41;
+    color: #ffffff;
+    
+}
+
+.card .buy-button:hover{
+    background-color: #306BAC;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 6px 50px rgba(50, 15, 15, 0.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* footer page */
+
+.footer{
+    background-color: #141b41;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.footer-text{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footer-icon{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-icon svg{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+
+.about-us-text{
+    margin-top: 10px;
+}
+.about-us-text h5{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about-us-link{
+    column-count: 2;  
+    position: absolute; 
+    margin-right: 80px;
+}
+
+.about-us-link a{
+    color: #fff;
+    display: grid;
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+
+.about-us-link a:hover{
+    font-weight: 500;
+}
+
+.contact-us{
+    text-align: left;
+}
+
+/* log in & Sign up page css */
+
+.log-in-page , .sign-up-page{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.log-in-page .card ,.sign-up-page .card{
+    width: 100%;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.log-in-page .card h2,.sign-up-page .card h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #141b41;
+    font-family: 'Pixelify Sans';
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.form-group label{
+    font-weight: 500;
+    color: #141b41;
+}
+
+.form-group .form-control{
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.login-form h6 a{
+    text-decoration: none;
+    color: #141b41;
+}
+
+.login-form h6 a:hover{
+    text-decoration: none;
+    color: #306BAC;
+}
+
+.login-form .button, .signup-form .button {
+    background-color: #141b41;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.login-form .button:hover ,.signup-form .button:hover{
+    background-color: #306BAC;
+}
+
+.login-form .button:hover ,.signup-form .button:hover{
+    background-color: #306BAC;
+}
+
+.name{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+/* buy car page css */
+
+
+
+.car-details .card .view-button{
+    width: 114px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #141b41;
+    color: #ffffff;
+    padding-left: 2px;
+}
+
+.car-details .card .view-button:hover{
+    background-color: #306BAC;
+}
+
+/* sell car page */
+
+.sell-page{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sell-page h1{
+    font-family: 'Pixelify Sans';
+    color: #141b41;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.sell-page h5{
+    color: #306BAC;
+    margin-bottom: 25px;
+}
+
+.column {
+    display: flex;
+    gap: 20px;
+}
+
+.column-1,.column-2{
+    width: 280px;
+}
+
+.sell-page .form-group .form-control{
+    appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+} 
+
+.sell-page .button{
+    width: 114px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #141b41;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.sell-page .button:hover{
+    background-color: #306BAC;
+}
+
