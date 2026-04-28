@@ -1,4 +1,3 @@
-```markdown
 # 🚗 SpoCars
 
 ![SpoCars Preview](img/homepage.png)
@@ -40,4 +39,3 @@ SpoCars/
 
 ## 📝 License
 This project is for educational and portfolio purposes. Feel free to use and modify the code!
-```
